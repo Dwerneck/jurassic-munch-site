@@ -1,0 +1,13 @@
+body { margin: 0; background: #f4f7ee; color: #1f2a17; font: 17px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+main { max-width: 720px; margin: 0 auto; padding: 32px 16px 64px; }
+h1 { color: #2f6b12; line-height: 1.2; }
+h2 { margin-top: 1.8em; font-size: 1.15em; color: #3c7d1c; }
+a { color: #2a7d9c; }
+.icone { display: block; border-radius: 26px; margin: 8px 0 4px; }
+.data, .rodape { color: #6b7560; font-size: .9em; }
+hr { border: 0; border-top: 1px solid #cfd8c3; margin: 40px 0 8px; }
+@media (prefers-color-scheme: dark) {
+  body { background: #151b10; color: #e5eedb; }
+  h1 { color: #9ede6a; } h2 { color: #8ccf5c; } a { color: #7fd0ef; }
+  hr { border-top-color: #3a4630; }
+}
